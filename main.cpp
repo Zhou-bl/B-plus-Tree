@@ -6,8 +6,8 @@ using namespace std;
 using B_PLUS_TREE::BPlusTree;
 int main(){
     //freopen("ans.txt", "w", stdout);
-    freopen("data.txt", "r", stdin);
-    freopen("tree.txt", "w", stdout);
+    //freopen("data.txt", "r", stdin);
+    //freopen("tree.txt", "w", stdout);
     BPlusTree<str<30>, int, std::max((long unsigned int)5, 32742 / (sizeof(str<30>) + 8) )> tree("treedata");
     int n, k;
     vector<int> ans;
