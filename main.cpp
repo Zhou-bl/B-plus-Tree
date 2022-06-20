@@ -8,7 +8,7 @@ int main(){
     //freopen("ans.txt", "w", stdout);
     //freopen("data.txt", "r", stdin);
     //freopen("tree.txt", "w", stdout);
-    BPlusTree<str<30>, int, std::max((long unsigned int)5, 32742 / (sizeof(str<30>) + 8) )> tree("treedata");
+    BPlusTree<str<65>, int, std::max((long unsigned int)5, 32742 / (sizeof(str<65>) + 8) )> tree("treedata");
     int n, k;
     vector<int> ans;
     string op, s;
