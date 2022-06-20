@@ -956,7 +956,7 @@ namespace B_PLUS_TREE {
                 tree.read(tmp, tmp.next);
             }
         }
-
+/*
         void FindPending(const FindPD &aimPD, vector<ValueType> &res){
             if(!std::is_same<KeyType, struct FindPending>()){
                 cout << "Type FindPD Wrong!" << endl;
@@ -1003,7 +1003,7 @@ namespace B_PLUS_TREE {
             }
         }
 
-
+*/
 
 #ifdef _DEBUG
 
