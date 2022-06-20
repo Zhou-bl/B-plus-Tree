@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/zbl/Desktop/bpttest-master/main.cpp" "/mnt/c/Users/zbl/Desktop/bpttest-master/cmake-build-debug/CMakeFiles/code.dir/main.cpp.o"
+  "/mnt/c/Users/zbl/Desktop/bpttest-master/compare.cpp" "/mnt/c/Users/zbl/Desktop/bpttest-master/cmake-build-debug/CMakeFiles/code.dir/compare.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-main.o: main.cpp.o
+compare.o: compare.cpp.o
 
-.PHONY : main.o
+.PHONY : compare.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.o
-.PHONY : main.cpp.o
+compare.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/compare.cpp.o
+.PHONY : compare.cpp.o
 
-main.i: main.cpp.i
+compare.i: compare.cpp.i
 
-.PHONY : main.i
+.PHONY : compare.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.i
-.PHONY : main.cpp.i
+compare.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/compare.cpp.i
+.PHONY : compare.cpp.i
 
-main.s: main.cpp.s
+compare.s: compare.cpp.s
 
-.PHONY : main.s
+.PHONY : compare.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.s
-.PHONY : main.cpp.s
+compare.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/compare.cpp.s
+.PHONY : compare.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... compare.o"
+	@echo "... compare.i"
+	@echo "... compare.s"
 .PHONY : help
 
 

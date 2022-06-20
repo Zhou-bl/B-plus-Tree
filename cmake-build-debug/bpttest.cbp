@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/zbl/Desktop/bpttest-master/main.cpp">
+		<Unit filename="/mnt/c/Users/zbl/Desktop/bpttest-master/compare.cpp">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/zbl/Desktop/bpttest-master/CMakeLists.txt">
