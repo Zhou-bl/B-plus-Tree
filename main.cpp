@@ -7,7 +7,7 @@ using B_PLUS_TREE::BPlusTree;
 int main(){
     //freopen("ans.txt", "w", stdout);
     //freopen("data.txt", "r", stdin);
-    //freopen("tree.txt", "w", stdout);
+    freopen("tree.txt", "w", stdout);
     BPlusTree<str<65>, int> tree("treedata");
     int n, k;
     vector<int> ans;
