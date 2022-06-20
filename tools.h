@@ -177,7 +177,7 @@ public:
     }
 
     friend bool operator==(const str<len> &l, const str<len> &r) {
-        return string(l.STR) == string(r.STR);
+        return !strcmp(l.STR, r.STR);
     }
 
     friend bool operator!=(const str<len> &l, const str<len> &r) {
